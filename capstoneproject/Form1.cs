@@ -19,12 +19,17 @@ namespace capstoneproject
             InitializeComponent();
         }
 
-       
-        
-        private void OpenNextWindow()
+
+
+        private void OpenNextWindow(string username)
         {
-            // Create an instance of the next form and show it
+            // Create an instance of the next form
             dashboard nextForm = new dashboard();
+
+            // Pass the username to the next form
+            nextForm.username = username;
+
+            // Show the next form
             nextForm.Show();
 
             // Hide the current login form
@@ -38,43 +43,41 @@ namespace capstoneproject
 
         private void loginbtn_Click_1(object sender, EventArgs e)
         {
+            string username = usernametxt.Text;
+            string password = passwordtxt.Text;
+
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
-                string username = usernametxt.Text;
-                string password = passwordtxt.Text;
+                MessageBox.Show("Please enter both username and password.");
+                return;
+            }
 
-                if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                connection.Open();
+
+                string query = "SELECT COUNT(*) FROM tbl_login WHERE Username = @username AND password = @password";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    MessageBox.Show("Please enter both username and password.");
-                    return;
-                }
+                    command.Parameters.AddWithValue("@username", username);
+                    command.Parameters.AddWithValue("@password", password);
 
-                using (SqlConnection connection = new SqlConnection(ConnectionString))
-                {
-                    connection.Open();
+                    int userCount = (int)command.ExecuteScalar();
 
-                    string query = "SELECT COUNT(*) FROM tbl_login WHERE Username = @username AND password = @password";
-
-                    using (SqlCommand command = new SqlCommand(query, connection))
+                    if (userCount > 0)
                     {
-                        command.Parameters.AddWithValue("@username", username);
-                        command.Parameters.AddWithValue("@password", password);
+                        MessageBox.Show("Login successful!");
 
-                        int userCount = (int)command.ExecuteScalar();
-
-                        if (userCount > 0)
-                        {
-                            MessageBox.Show("Login successful!");
-                            OpenNextWindow();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Invalid username or password.");
-
-                        }
+                        // Pass the username to the OpenNextWindow method
+                        OpenNextWindow(username);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid username or password.");
                     }
                 }
             }
-
         }
 
         private void usernametxt_KeyDown(object sender, KeyEventArgs e)

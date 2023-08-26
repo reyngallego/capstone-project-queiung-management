@@ -109,6 +109,15 @@ namespace capstoneproject
                 }
             }
         }
+
+        private void cancelbtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+            // Show the previous form (WelcomeForm in this example)
+            Users Usersform = new Users();
+            Usersform.Show();
+        }
     }
     }
 
