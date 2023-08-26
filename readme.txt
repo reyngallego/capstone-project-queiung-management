@@ -1,2 +1,1 @@
-try okaypo 
-try again
+dito mag sabi kung ano gagawin
