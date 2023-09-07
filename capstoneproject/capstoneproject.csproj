@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -68,6 +69,41 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>loginformDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginformDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>loginformDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginformDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>loginformDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginformDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>loginformDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginformDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>loginformDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginformDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>loginformDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginformDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>loginformDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginformDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>loginformDataSet7.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,6 +145,83 @@
     </None>
     <None Include="loginformDataSet.xss">
       <DependentUpon>loginformDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet1.xsc">
+      <DependentUpon>loginformDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>loginformDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="loginformDataSet1.xss">
+      <DependentUpon>loginformDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet2.xsc">
+      <DependentUpon>loginformDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>loginformDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="loginformDataSet2.xss">
+      <DependentUpon>loginformDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet3.xsc">
+      <DependentUpon>loginformDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>loginformDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="loginformDataSet3.xss">
+      <DependentUpon>loginformDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet4.xsc">
+      <DependentUpon>loginformDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>loginformDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="loginformDataSet4.xss">
+      <DependentUpon>loginformDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet5.xsc">
+      <DependentUpon>loginformDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>loginformDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="loginformDataSet5.xss">
+      <DependentUpon>loginformDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet6.xsc">
+      <DependentUpon>loginformDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>loginformDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="loginformDataSet6.xss">
+      <DependentUpon>loginformDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet7.xsc">
+      <DependentUpon>loginformDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="loginformDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>loginformDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="loginformDataSet7.xss">
+      <DependentUpon>loginformDataSet7.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

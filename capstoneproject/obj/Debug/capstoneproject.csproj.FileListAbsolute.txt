@@ -22,3 +22,15 @@ C:\Users\minem\source\repos\capstone-project-queiung-management\capstoneproject\
 C:\Users\minem\source\repos\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.Properties.Resources.resources
 C:\Users\minem\source\repos\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.Users.resources
 C:\Users\minem\source\repos\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.csproj.GenerateResource.Cache
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\bin\Debug\capstoneproject.exe.config
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.exe
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.pdb
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\bin\Debug\capstoneproject.exe
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\bin\Debug\capstoneproject.pdb
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.csprojResolveAssemblyReference.cache
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.adduser.resources
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.dashboard.resources
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.Form1.resources
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.Properties.Resources.resources
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.Users.resources
+C:\Users\minem\source\repos\capstone-project-queiung-management\capstone-project-queiung-management\capstoneproject\obj\Debug\capstoneproject.csproj.GenerateResource.Cache
